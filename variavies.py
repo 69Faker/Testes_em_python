@@ -1,1 +1,0 @@
-print("tamo junto git")
