@@ -14,3 +14,14 @@ media = soma / quantidade
 print("\n Total da soma:", soma)
 print("\n quantidade de valores digitados:", quantidade)
 print("\n Média dos valores:", media)
+
+def mensagem1():
+    print("legal meu pacero")
+
+def mensagem2():
+    return "legal meu xuxu"
+
+mensagem1()
+
+texto = mensagem2()
+print(texto)
