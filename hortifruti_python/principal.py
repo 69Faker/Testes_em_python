@@ -1,6 +1,6 @@
 print("------Bem Vindo------")
 
-from cliente import Cliente
+from cliente import Clientes
 from estoque import Frutas
 
 def escolha():
@@ -26,6 +26,8 @@ def escolhas(opcao):
             print("Cupons")
         case 3:
             print("Suporte")
+        case 4:
+            print("Carrinho")
 
-escolha()
-
+if __name__ == "__main__":
+    escolha()
